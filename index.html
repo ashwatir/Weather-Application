@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<style>
+
+		form{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 55vh;
+		}
+		h1{
+			text-align: center;
+			padding: 50px 0;
+		}
+		input{
+			width: 70%;
+			height: 7%;
+			margin: 0 10px;
+			border-radius: 10px;
+			border: 1px solid black;
+			outline: none;
+			padding: 0 10px;
+			box-shadow: 1px 1px 5px 1px rgba(130,123,123,0.75);
+			-webkit-box-shadow: 1px 1px 5px 1px rgba(130,123,123,0.75);
+			-moz-box-shadow: 1px 1px 5px 1px rgba(130,123,123,0.75);
+		}
+		button{
+			padding: 5px 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			border: 1px solid black;
+			outline: none;
+			box-shadow: 1px 1px 5px 1px rgba(130,123,123,0.75);
+			-webkit-box-shadow: 1px 1px 5px 1px rgba(130,123,123,0.75);
+			-moz-box-shadow: 1px 1px 5px 1px rgba(130,123,123,0.75);
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<h1>WEATHER APP</h1>
+	<form action="/" method="post">
+
+		<h3>City Name: </h3><input id="cityInput" type="text" name="cityName">
+		<button type="submit">GO</button>
+	</form>
+	
+</body>
+</html>
